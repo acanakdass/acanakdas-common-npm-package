@@ -1,6 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { validationResult } from "express-validator";
-import { IUserPayload, SecurityHelper } from "../../../auth/src/helpers/SecurityHelper";
+import { IUserPayload, SecurityHelper } from "../helpers/SecurityHelper";
 
 
 declare global {
